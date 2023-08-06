@@ -1,0 +1,18 @@
+country_event = {
+	id = 
+	title = ""
+	desc = ""
+	picture = 
+	mean_time_to_happen = {
+	}
+	trigger = {
+ 	}
+	immediate = {
+		hidden_effect = {
+		}
+	}
+	option = {
+		name = ""
+		ai_chance =
+	}
+}

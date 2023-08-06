@@ -1,0 +1,27 @@
+country_event = {
+	id = flavor2_eng.9104
+	title = "flavor2_eng.EVTNAME9104"
+	desc = "flavor2_eng.EVTDESC9104"
+	picture = DIPLOMACY_eventPicture
+	mean_time_to_happen = {
+	days = 1
+	}
+	trigger = {
+		NOT = { has_country_flag = Setvariableflag 
+		}
+		ai = no
+ 	}
+	immediate = {
+		hidden_effect = {
+			set_variable = {
+				which = libertinDegeneracyVariable
+				value = 0
+			}
+			set_country_flag = Setvariableflag
+		}
+	}
+	option = {
+		name = "EVTOPTA21073"
+		ai_chance = { factor = 75 }
+	}
+}
